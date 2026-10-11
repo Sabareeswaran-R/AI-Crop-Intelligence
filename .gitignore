@@ -1,0 +1,32 @@
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+.vscode/
+
+# Large leaf disease image dataset
+data/leaf_disease/extracted/
+
+# Generated datasets and model artifacts
+data/processed/
+models/*.joblib
+models/leaf_disease/*.keras
+models/leaf_disease/*.h5
+
+# Large datasets
+data/leaf_disease/
+data/raw/
+data/processed/
+
+# Trained model files
+models/*.joblib
+models/leaf_disease/*.keras
+models/leaf_disease/*.h5
